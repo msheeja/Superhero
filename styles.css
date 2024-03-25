@@ -1,0 +1,81 @@
+:root {
+  --body-background-color: #032830;
+  --body-font-color: #fff;
+  --content-background-color: #cff4fc;
+  --card-header-background-color: #087990;
+  --favourite-fill-color: #b02a37;
+  --item-hover-color: #6edff6;
+  --detail-header-color: #96cfdc;
+  --favourite-item-card-color: #072d34;
+}
+
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-font-color);
+}
+
+/** Main page **/
+
+.form-control {
+  background-color: var(--content-background-color);
+}
+
+.card-header {
+  background-color: var(--card-header-background-color);
+  color: var(--body-font-color);
+}
+
+#menu {
+  background-color: var(--content-background-color);
+}
+
+.bi-heart-fill {
+  color: var(--favourite-fill-color);
+}
+
+#characters-list li {
+  background-color: var(--content-background-color);
+}
+
+#characters-list li:hover {
+  background-color: var(--item-hover-color);
+}
+
+#favourite-list li {
+  background-color: var(--content-background-color);
+}
+
+/** Character details page **/
+
+#character-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#character-name,
+.detail-item-header {
+  color: var(--detail-header-color);
+}
+
+.creators,
+.preview {
+  text-align: justify;
+}
+
+.creators,
+.characters {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.detail-item-image {
+  width: 8em;
+  height: 8em;
+}
+
+/** Favourites page **/
+
+.favourite-item {
+  background-color: var(--favourite-item-card-color);
+}
